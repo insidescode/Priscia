@@ -36,7 +36,7 @@ from priscia.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Kon'nichiwa! my name is *{dispatcher.bot.first_name}*. If you have any questions on how to use me, Click Help button.
+Hello 👋! my name is *{dispatcher.bot.first_name}*. If you have any questions on how to use me, Click Help button.
 
 I'm here to make your group management fun and easy!
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
@@ -49,27 +49,27 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥",
-            url="t.me/PrisciaBot?startgroup=true"),
+            text="Add to Group",
+            url="t.me/Zer0ByteGroup_Bot?startgroup=true"),
         InlineKeyboardButton(
-            text="Join Channel ℹ️",
-            url="https://t.me/fvllprojekt"),
+            text="Join Channel",
+            url="https://t.me/Zer0ByteOfficial"),
     ]]
 
-buttons += [[InlineKeyboardButton(text="Help & Commands ❔",
+buttons += [[InlineKeyboardButton(text="Help & Commands ❓",
                                   url=f"t.me/{dispatcher.bot.username}?start=help",)]]
 
 
 HELP_STRINGS = f"""
-Kon'nichiwa! My name is *{dispatcher.bot.first_name}*.
+Hello! My name is *{dispatcher.bot.first_name}*.
 I'm a advanced modular group management bot with a lot of additional features! \
 Have a look at the following for an idea of some of the things I can help you with.
 
 *Main* commands available:
- × /start: Starts me, can be used to check i'm alive or no...
- × /help: PM's you this message.
- × /help <module name>: PM's you info about that module.
- × /settings: in PM: will send you your settings for all supported modules.
+➤ /start: Starts me, can be used to check i'm alive or no...
+➤ /help: PM's you this message.
+➤ /help <module name>: PM's you info about that module.
+➤ /settings: in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
  \nClick on the buttons below to get documentation about specific modules!"""
 
