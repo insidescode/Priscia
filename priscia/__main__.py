@@ -186,7 +186,7 @@ def send_start(update, context):
         update.effective_message.edit_media(
             chat_id=query.message.chat_id,
             message_id=query.message.message_id,
-            media="https://telegra.ph/file/47343fdcd34ccdccd4867.mp4",
+            media="https://telegra.ph/file/d70aa70ffd56332f70e2b.jpg",
             caption=PM_START_TEXT,
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
